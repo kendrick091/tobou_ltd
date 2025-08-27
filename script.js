@@ -10,3 +10,19 @@
       this.classList.add('active');
     });
   });
+
+function initGalleryRotation(gallerySelector, delay = 2000) {
+  const items = document.querySelectorAll(`${gallerySelector} .gallery-item`);
+
+  items.forEach((item, index) => {
+    setInterval(() => {
+      item.classList.toggle("show-secondary");
+    }, delay + index * 700);
+  });
+}
+
+// Run for each gallery
+initGalleryRotation(".gallery1", 2000);
+initGalleryRotation(".gallery2", 2500);
+// initGalleryRotation(".gallery3", 3000);
+

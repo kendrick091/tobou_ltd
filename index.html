@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TOBOU Ltd</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>TOBUO LTD</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
@@ -13,8 +13,12 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">TOBOU Ltd</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+    <a class="navbar-brand fw-bold" href="#">
+  <img src="img/Tobuo_logo.png" alt="TOBUO Logo" width="70" height="70" 
+  class="d-inline-block align-text-top">
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
@@ -30,19 +34,19 @@
 </nav>
 
 <!-- HERO SECTION -->
-<header class="bg-dark text-white text-center py-5" style="margin-top:56px;">
-  <div class="container">
-    <h1 class="display-4 fw-bold">Welcome to TOBOU Ltd</h1>
-    <p class="lead">Fashion • Style • Contracts</p>
-    <a href="#services" class="btn btn-light btn-lg mt-3">Discover More</a>
-  </div>
+<header class="text-center py-5 mt-5">
+  <img src="img/Tobuo_logo.png" alt="TOBUO Logo" width="230">
+  <h1 class="fw-bold mt-3">TOBUO LUXURY HOME Ltd</h1>
+  <p class="lead">Fashion • Style • General Contracts</p>
 </header>
 
 <!-- ABOUT -->
 <section id="about" class="py-5">
   <div class="container text-center">
     <h2 class="fw-bold mb-4">About Us</h2>
-    <p class="lead">TOBOU Ltd is a modern company specializing in fashionable clothes, shoes, bags, and accessories, as well as offering top-quality general contracting services. We combine style and professionalism to serve our clients with excellence.</p>
+    <p class="lead">TOBUO Ltd is a modern company specializing in fashionable clothes, shoes, 
+      bags, and accessories, as well as offering top-quality general contracting services. 
+      We combine style and professionalism to serve our clients with excellence.</p>
   </div>
 </section>
 
@@ -68,14 +72,53 @@
 <!-- GALLERY -->
 <section id="gallery" class="py-5">
   <div class="container">
-    <h2 class="text-center fw-bold mb-4">Our Fashion Gallery</h2>
-    <div class="row g-4">
-      <div class="col-md-4"><img src="img/fashion1.jpg" class="img-fluid rounded shadow" alt="Fashion Item"></div>
-      <div class="col-md-4"><img src="img/fashion2.jpg" class="img-fluid rounded shadow" alt="Fashion Item"></div>
-      <div class="col-md-4"><img src="img/fashion3.jpg" class="img-fluid rounded shadow" alt="Fashion Item"></div>
+  <h2 class="text-center fw-bold mb-4">Our Fashion Gallery</h2>
+
+  <!-- Gallery 1 -->
+  <div class="row g-4 gallery1">
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/gallery1a.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/gallery1b.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/white hat and black_dress puton.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/White_hat_not puton black_dress.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/Black male_shoe with leg.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/blackgirl_in_yellow_dress.jpg" class="img-fluid secondary" alt="Model Wearing Item">
     </div>
   </div>
+
+  <!-- Gallery 2 -->
+  <div class="row g-4 mt-4 gallery2">
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/house stair.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/unfinish house_Pic_from_roof.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/amsterdam-city-archives.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/archidea-x-architectur.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/truck1.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/truck2.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    <!-- add more items in same row -->
+  </div>
+
+  <!-- Gallery 3 -->
+  <!-- <div class="row g-4 mt-4 gallery3">
+    <div class="col-md-4 col-sm-6 gallery-item">
+      <img src="img/example1.jpg" class="img-fluid primary" alt="Fashion Item">
+      <img src="img/example1b.jpg" class="img-fluid secondary" alt="Model Wearing Item">
+    </div>
+    add more items in same row
+  </div> -->
+</div>
+
 </section>
+
 
 <!-- CONTACT -->
 <section id="contact" class="py-5 bg-light">
@@ -103,7 +146,7 @@
 <!-- FOOTER -->
 <footer class="bg-primary text-white text-center py-3">
   <div class="container">
-    &copy; 2025 TOBOU Ltd
+    &copy; 2025 TOBUO Ltd
     <div class="social-icons text-center my-3">
       <a href="mailto:your@email.com" class="me-3">
         <i class="bi bi-envelope-fill" style="font-size: 1.5rem; color: white"></i>
